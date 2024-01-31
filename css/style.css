@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -127,3 +128,18 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+@media screen and (max-width:768px) {
+
+    /*TABLET*/
+    .container {
+        max-width: 100%;
+        /*OPTION 1* Per dispositivi inferiori a 600px*/
+
+        /* max-width: 600px;*/
+        /*OPTION 2* Per dispositivi di almeno 600px*/
+        margin: auto;
+        display: flex;
+        flex-direction: column
+    }
+}
